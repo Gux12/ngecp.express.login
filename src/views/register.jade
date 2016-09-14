@@ -1,0 +1,9 @@
+extends layout
+
+block content
+    h1= title
+    p Welcome to #{title} register
+    p(class) 注册信息
+    p: input(type='text' id='username' placeholder='请输入用户名' required='true')
+    p: input(type='text' id='password' placeholder='请输入密码' required='true')
+    p: input(type='text' id='passwordAgain' placeholder='请再次输入密码' required='true')
